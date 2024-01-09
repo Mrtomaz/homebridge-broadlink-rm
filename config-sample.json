@@ -1,27 +1,16 @@
 {
-	"bridge": {
-		"name": "Homebridge",
-		"username": "CD:22:3D:E3:CE:30",
-		"port": 51826,
-		"pin": "031-45-154"
-	},
-	"description": "Homebridge",
-	"accessories": [
-
-	],
-	"platforms": [{
 		"platform": "BroadlinkRM",
 		"name": "Broadlink RM",
 		"hideScanFrequencyButton": false,
 		"hideLearnButton": false,
 		"hideWelcomeMessage": false,
 		"hosts": [{
-			"address": "192.168.1.76",
-			"mac": "34:ea:34:e7:d7:28",
+			"address": "192.168.100.8",
+			"mac": "c8:f7:42:d9:f9:3d",
 			"isRFSupported": false
 		},{
-			"address": "192.168.1.77",
-			"mac": "34:ea:34:e8:d8:30",
+			"address": "192.168.100.8@80",
+			"mac": "c8:f7:42:d9:f9:3d",
 			"isRFSupported": true,
 			"isRM4": true
 		}],
